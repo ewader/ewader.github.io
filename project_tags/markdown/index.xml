@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on 数字花园</title>
+    <link>https://ewader.github.io/project_tags/markdown/</link>
+    <description>Recent content in markdown on 数字花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>数字花园 ©</copyright>
+    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ewader.github.io/project_tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://ewader.github.io/projects/project1/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/projects/project1/</guid>
+      <description>Example of markdown syntax you can use to edit your content</description>
+    </item>
+    
+  </channel>
+</rss>

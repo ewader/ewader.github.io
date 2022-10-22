@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>red-panda on 数字花园</title>
+    <link>https://ewader.github.io/library_tags/red-panda/</link>
+    <description>Recent content in red-panda on 数字花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>数字花园 ©</copyright>
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ewader.github.io/library_tags/red-panda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>红色的熊猫</title>
+      <link>https://ewader.github.io/library/book1/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/library/book1/</guid>
+      <description>Biology and Conservation of the First Panda</description>
+    </item>
+    
+    <item>
+      <title>Fuji Takes a Walk</title>
+      <link>https://ewader.github.io/library/book2/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/library/book2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

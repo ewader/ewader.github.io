@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nap on 数字花园</title>
+    <link>https://ewader.github.io/garden_tags/nap/</link>
+    <description>Recent content in nap on 数字花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>数字花园 ©</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ewader.github.io/garden_tags/nap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The best trees to fall asleep in 2020</title>
+      <link>https://ewader.github.io/garden/growing_example/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/garden/growing_example/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

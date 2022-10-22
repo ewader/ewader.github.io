@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>项目 on 数字花园</title>
+    <link>https://ewader.github.io/projects/</link>
+    <description>Recent content in 项目 on 数字花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>数字花园 ©</copyright>
+    <lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ewader.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>视光档案管理系统</title>
+      <link>https://ewader.github.io/projects/project2/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/projects/project2/</guid>
+      <description>近视防控管理项目，对视光档案进行保存及分析</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://ewader.github.io/projects/project1/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/projects/project1/</guid>
+      <description>Example of markdown syntax you can use to edit your content</description>
+    </item>
+    
+    <item>
+      <title>Another Project</title>
+      <link>https://ewader.github.io/projects/project3/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/projects/project3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

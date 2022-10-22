@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&family=Frank+Ruhl+Libre:wght@200;300;400;500;600&family=Encode+Sans+Semi+Condensed:wght@400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/all.min.css">
+    <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/my_style.css">
+    
+    
+    
+    <title>数字花园 | 视光档案管理系统</title>
+    <meta name="description" content="近视防控管理项目，对视光档案进行保存及分析">
+</head><body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="https://ewader.github.io">
+            
+            <b style="font-weight: 800;">首页</b>
+            
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class='nav-item '>
+                    <a class="nav-link" href="/garden/"> 数字花园</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/projects/"> 项目</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/library/"> 文库</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/about/"> 关于</a>
+                </li>
+             
+            <li class="nav-item px-2 pt-1">
+                <a class="btn fas fa-moon" id="dark-mode-toggle"></a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav><div id="content">
+
+<div class="container" style="max-width: 800px;">
+    <div class="py-4 rounded-3">
+        <div class="container-fluid py-2">
+            <h1 class="display-2 mb-4 text-center">视光档案管理系统</h1>
+        </div>
+        
+        <p class="text-center fs-4 fst-italic serif">近视防控管理项目，对视光档案进行保存及分析</p>
+        
+        <div class="text-center pt-4">
+            
+        </div>
+    </div>
+    <div class="row justify-content-center mb-5">
+        <div class="col-12">
+            <p class="card-date m-0">
+                
+                
+                    Created Jul 1, 2021 - 
+                
+                Last updated: Jul 1, 2021
+            </p>
+            <hr class="dropdown-divider">
+            <div class="row justify-content-between">
+                <div class="col-sm-4">
+                    
+    
+    <span class="status">Seeding 🌱</span>
+    
+
+                </div>
+                <div class="col-sm-8" style="text-align: right;">
+                    
+                
+                
+                    
+                    <span class="badge tag-badge">视光</span>
+                    
+                    <span class="badge tag-badge">近视防控</span>
+                    
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-2">
+        <div class="serif main-content">
+            <p>It is super easy to create and update the content of this theme. There are only 2 places that matters depending on waht you need to update:</p>
+<ul>
+<li>your <code>config.toml</code> file for general website content (navigation bar, footer, title, &hellip;)</li>
+<li>your <code>content/</code> folder for page specific content (post, project, about, book &hellip;)</li>
+</ul>
+<p>The syntax of the <code>config.toml</code> should be straightforward. Not that you don&rsquo;t need to specify a <code>themesdir</code> if you already have the theme in you theme folder.</p>
+<p>To create a new post or project, just create new markdown files in the relatives folder with the frontmatter detailed below</p>
+<h3 id="post-front-matter">Post front matter</h3>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;Title&#34;
+</span></span><span style="display:flex;"><span>date: 2019-01-01
+</span></span><span style="display:flex;"><span>lastmod: 2020-02-02
+</span></span><span style="display:flex;"><span>draft: false
+</span></span><span style="display:flex;"><span>garden_tags: [&#34;tag1&#34;, &#34;tag2&#34;]
+</span></span><span style="display:flex;"><span>summary: &#34; &#34;
+</span></span><span style="display:flex;"><span>status: &#34;evergreen&#34;
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><ul>
+<li>If you don&rsquo;t want any <code>summary</code> to be displayed, leave a whitespace otherwise the default summary will be the first sentence of your post.</li>
+<li>The <code>garden_tags</code> are used as filter on the Digital Garden page.</li>
+<li>The <code>status</code> can be one of <code>seeding</code>, <code>growing</code> or <code>evergreen</code>. You can customized those by creating a new file in <code>layouts/partials/status.html</code> (look at <code>themes/digital-garden/layouts/partials/status.html</code> for an example).</li>
+</ul>
+<h3 id="project-front-matter">Project front matter</h3>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;Project Title&#34;
+</span></span><span style="display:flex;"><span>date: 2021-01-01
+</span></span><span style="display:flex;"><span>draft: false
+</span></span><span style="display:flex;"><span>project_tags: [&#34;markdown&#34;]
+</span></span><span style="display:flex;"><span>status: &#34;evergreen&#34;
+</span></span><span style="display:flex;"><span>summary: &#34;Project summary&#34;
+</span></span><span style="display:flex;"><span>links:
+</span></span><span style="display:flex;"><span>    external_link:
+</span></span><span style="display:flex;"><span>        text: &#34;Some external link&#34;
+</span></span><span style="display:flex;"><span>        icon: &#34;fas fa-external-link-alt&#34;
+</span></span><span style="display:flex;"><span>        href: &#34;#&#34;
+</span></span><span style="display:flex;"><span>        weight: 1
+</span></span><span style="display:flex;"><span>    another_link:
+</span></span><span style="display:flex;"><span>        text: &#34;Another github link&#34;
+</span></span><span style="display:flex;"><span>        icon: &#34;fab alt brands fa-github&#34;
+</span></span><span style="display:flex;"><span>        href: &#34;#&#34;
+</span></span><span style="display:flex;"><span>        weight: 2
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>You can create a new project by creating a new folder under <code>content/projects/</code>.<br>
+Any image in this folder with the word <code>feature</code> in its name will be used as the project illustration.<br>
+Any <code>index.md</code> file in this folder with the front matter above will be used to create the project page.<br>
+In addition to the post frontmatter, the project one get a <code>links</code> key if you want to have links to external source (github, &hellip;).</p>
+<h3 id="shortcodes">Shortcodes</h3>
+<p>Split text into columns with the <code>row</code> and <code>column</code> shortcodes.</p>
+<div class="row"> 
+<div class="col-md"> <h4 id="col-1-title">Col 1 Title</h4>
+<p>column 1 text </div>
+
+<div class="col-md"> <h4 id="col-2-title">Col 2 Title</h4>
+<p>column 2 text </div>
+
+ </div>
+
+<p>Draw mermaid graph</p>
+
+<div class="mermaid" align="center">
+graph LR;
+   A[sheets ream<sup>-1</sup> <br> 500] -->|-1| B[thickness <br> 10<sup>-2</sup>cm <br>] 
+   C[thickness ream<sup>-1</sup> <br> 5cm] --> B
+   B --> D[volume <br> 1cm<sup>3</sup>]
+   E[height <br> 6cm] --> D
+   F[width <br> 15cm] --> D
+</div>
+
+<hr>
+<p><small>Red panda icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"><a href="https://www.flaticon.com">www.flaticon.com</a></a></small></p>
+
+        </div>
+    </div>
+</div>
+
+
+        </div><div class="container">
+    <div class="row justify-content-between">
+        <div class="col-sm-4">
+            <p class="footer">数字花园 © 2022 </p>
+        </div>
+        <div class="col-sm-6 d-flex flex-row-reverse">
+            
+            <a class="footer-social px-2" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            
+            <a class="footer-social px-2" href="#" target="_blank"><i class="fab fa-github"></i></a>
+            
+            <a class="footer-social px-2" href="#" target="_blank"><i class="fab fa-medium-m"></i></a>
+            
+            <a class="footer-social px-2" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            
+        </div>
+    </div>
+</div><script src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script src="/js/dark.js"></script>
+<script src="/js/isotope.js"></script>
+<script src="/js/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose'});</script></body>
+</html>

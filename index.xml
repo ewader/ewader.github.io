@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数字花园</title>
+    <link>https://ewader.github.io/</link>
+    <description>Recent content on 数字花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>数字花园 ©</copyright>
+    <lastBuildDate>Fri, 21 Oct 2022 21:04:13 +0800</lastBuildDate><atom:link href="https://ewader.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>视光档案管理系统</title>
+      <link>https://ewader.github.io/projects/project2/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/projects/project2/</guid>
+      <description>近视防控管理项目，对视光档案进行保存及分析</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://ewader.github.io/projects/project1/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/projects/project1/</guid>
+      <description>Example of markdown syntax you can use to edit your content</description>
+    </item>
+    
+    <item>
+      <title>Another Project</title>
+      <link>https://ewader.github.io/projects/project3/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/projects/project3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>测试</title>
+      <link>https://ewader.github.io/garden/first/</link>
+      <pubDate>Fri, 21 Oct 2022 21:04:13 +0800</pubDate>
+      
+      <guid>https://ewader.github.io/garden/first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>测试</title>
+      <link>https://ewader.github.io/post/first/</link>
+      <pubDate>Fri, 21 Oct 2022 21:04:13 +0800</pubDate>
+      
+      <guid>https://ewader.github.io/post/first/</guid>
+      <description>第一次使用hugo，还是很激动阿 读书破万卷，下笔如有神</description>
+    </item>
+    
+    <item>
+      <title>红色的熊猫</title>
+      <link>https://ewader.github.io/library/book1/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/library/book1/</guid>
+      <description>Biology and Conservation of the First Panda</description>
+    </item>
+    
+    <item>
+      <title>Fuji Takes a Walk</title>
+      <link>https://ewader.github.io/library/book2/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/library/book2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the nutrition benefits of bamboo shoots</title>
+      <link>https://ewader.github.io/garden/seeding_example/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/garden/seeding_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimizing your daily fur cleaning routine</title>
+      <link>https://ewader.github.io/garden/evergreen_example/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/garden/evergreen_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The best trees to fall asleep in 2020</title>
+      <link>https://ewader.github.io/garden/growing_example/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/garden/growing_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nigalya Ponya</title>
+      <link>https://ewader.github.io/about/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewader.github.io/about/</guid>
+      <description>Himalayan red panda</description>
+    </item>
+    
+  </channel>
+</rss>
