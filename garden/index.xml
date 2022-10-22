@@ -5,9 +5,27 @@
     <link>https://ewader.github.io/garden/</link>
     <description>Recent content on 数字花园</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>en-us</language>
     <copyright>数字花园 ©</copyright>
     <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ewader.github.io/garden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manjaro安装ibus加libpinyin</title>
+      <link>https://ewader.github.io/garden/manjaro-gnaome-ibus-libpinyin/</link>
+      <pubDate>Sat, 22 Oct 2022 14:49:20 +0800</pubDate>
+      
+      <guid>https://ewader.github.io/garden/manjaro-gnaome-ibus-libpinyin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu22.04安装GNOME插件</title>
+      <link>https://ewader.github.io/garden/ubuntu-install-extension/</link>
+      <pubDate>Sat, 22 Oct 2022 11:57:16 +0800</pubDate>
+      
+      <guid>https://ewader.github.io/garden/ubuntu-install-extension/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>测试</title>
       <link>https://ewader.github.io/garden/first/</link>

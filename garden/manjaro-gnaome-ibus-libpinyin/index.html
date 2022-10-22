@@ -17,7 +17,7 @@
     
     
     
-    <title>数字花园 | 测试</title>
+    <title>数字花园 | Manjaro安装ibus加libpinyin</title>
     <meta name="description" content="">
 </head><body><nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
@@ -57,7 +57,7 @@
 <div class="container" style="max-width: 800px;">
     <div class="py-4 rounded-3">
         <div class="container-fluid py-2">
-            <h1 class="display-2 mb-4 text-center">测试</h1>
+            <h1 class="display-2 mb-4 text-center">Manjaro安装ibus加libpinyin</h1>
         </div>
         
         <div class="text-center pt-4">
@@ -69,16 +69,16 @@
             <p class="card-date m-0">
                 
                 
-                    Created Oct 21, 2022 - 
+                    Created Oct 22, 2022 - 
                 
-                Last updated: Oct 21, 2022
+                Last updated: Oct 22, 2022
             </p>
             <hr class="dropdown-divider">
             <div class="row justify-content-between">
                 <div class="col-sm-4">
                     
     
-    <span class="status">Evergreen 🌳</span>
+    <span class="status">Seeding 🌱</span>
     
 
                 </div>
@@ -86,9 +86,11 @@
                     
                 
                     
-                    <span class="badge tag-badge">测试</span>
+                    <span class="badge tag-badge">gnome</span>
                     
-                    <span class="badge tag-badge">清洁</span>
+                    <span class="badge tag-badge">ibus</span>
+                    
+                    <span class="badge tag-badge">libpinyin</span>
                     
                 
                 
@@ -99,13 +101,26 @@
 
     <div class="container-fluid py-2">
         <div class="serif main-content">
-            <h3 id="第一次使用hugo还是很激动阿">第一次使用hugo，还是很激动阿</h3>
-<p>better know what is the nutritional value of those greens.</p>
-<p>It turns out a several studies have already been done on that topic and a good starting point would be this article from P. Nongdam.</p>
+            <p>在ubuntu下使用习惯了IBUS输入法，换成manjaro之后，还是习惯性的希望继续使用，毕竟在Gnome桌面下，IBUS输入法使用起来更方便。配合上ibus-libpinyin，开启云词库之后，是用来真的很爽很爽。</p>
+<p>但是设置半天，托盘里总是出现不了ibus的图标。不得已换成fcitx5。这个输入法其实也可以，只不过有如下的毛病。</p>
+<ul>
+<li>第一，在gnome的查询框里输入中文，不显示候选的词语，</li>
+<li>第二，在某些个别的程序中无法输入中文，表现为切换成中文后，程序闪退。</li>
+</ul>
 <blockquote>
-<p>读书破万卷，下笔如有神</p>
+<p>经过一番的折腾，看wiki等，终于是把这个输入法整好了，记录以下折腾的过程。</p>
 </blockquote>
-<p><img src="https://cdn.staticaly.com/gh/ewader/img@master/20221022/featured.3ihs2ghkzwy0.webp" alt="一个可爱的小熊"></p>
+<h2 id="首先安装输入法">首先安装输入法</h2>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ pacman -S ibus
+</span></span><span style="display:flex;"><span>$ pacman -S ibus-libpinyin
+</span></span></code></pre></div><h2 id="然后设置-键盘-输入源-把libpinyin添加进去重启托盘有图标了吧">然后，设置-键盘-输入源 把libpinyin添加进去。重启，托盘有图标了吧？</h2>
+<p><img src="https://cdn.staticaly.com/gh/ewader/img@master/20221022/%E6%88%AA%E5%9B%BE-2022-10-05-17-10-53.3hm9rgsdxie0.webp" alt="截图-2022-10-05-17-10-53"></p>
+<h2 id="可能会遇到的问题">可能会遇到的问题：</h2>
+<p>firefox、edge等浏览器不能输入中文
+这个时候，可以打开manjaro hello，点击applications，在extended language support,选择第二个选项。update系统，一切都OK了
+<img src="https://cdn.staticaly.com/gh/ewader/img@master/20221022/%E6%88%AA%E5%9B%BE-2022-10-05-17-09-55.2qffux8w2i40.webp" alt="截图-2022-10-05-17-09-55"></p>
+<hr>
+<p>最近发现，其实只需要添加<strong>extended language support</strong>,就完全可以了。</p>
 
         </div>
     </div>

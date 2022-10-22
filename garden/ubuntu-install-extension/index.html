@@ -17,7 +17,7 @@
     
     
     
-    <title>数字花园 | 测试</title>
+    <title>数字花园 | Ubuntu22.04安装GNOME插件</title>
     <meta name="description" content="">
 </head><body><nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
@@ -57,7 +57,7 @@
 <div class="container" style="max-width: 800px;">
     <div class="py-4 rounded-3">
         <div class="container-fluid py-2">
-            <h1 class="display-2 mb-4 text-center">测试</h1>
+            <h1 class="display-2 mb-4 text-center">Ubuntu22.04安装GNOME插件</h1>
         </div>
         
         <div class="text-center pt-4">
@@ -69,16 +69,16 @@
             <p class="card-date m-0">
                 
                 
-                    Created Oct 21, 2022 - 
+                    Created Oct 22, 2022 - 
                 
-                Last updated: Oct 21, 2022
+                Last updated: Oct 22, 2022
             </p>
             <hr class="dropdown-divider">
             <div class="row justify-content-between">
                 <div class="col-sm-4">
                     
     
-    <span class="status">Evergreen 🌳</span>
+    <span class="status">Seeding 🌱</span>
     
 
                 </div>
@@ -86,9 +86,11 @@
                     
                 
                     
-                    <span class="badge tag-badge">测试</span>
+                    <span class="badge tag-badge">ubuntu</span>
                     
-                    <span class="badge tag-badge">清洁</span>
+                    <span class="badge tag-badge">gnome</span>
+                    
+                    <span class="badge tag-badge">插件</span>
                     
                 
                 
@@ -99,14 +101,21 @@
 
     <div class="container-fluid py-2">
         <div class="serif main-content">
-            <h3 id="第一次使用hugo还是很激动阿">第一次使用hugo，还是很激动阿</h3>
-<p>better know what is the nutritional value of those greens.</p>
-<p>It turns out a several studies have already been done on that topic and a good starting point would be this article from P. Nongdam.</p>
-<blockquote>
-<p>读书破万卷，下笔如有神</p>
-</blockquote>
-<p><img src="https://cdn.staticaly.com/gh/ewader/img@master/20221022/featured.3ihs2ghkzwy0.webp" alt="一个可爱的小熊"></p>
-
+            <p>Ububtu22.04对gnome42进行了个性化的设置，好听点的话是个性化的设置，不好听的就是魔改。这样就导致用浏览器不能安装gnome插件。报一个莫名其妙的错误，大意就是没有安装什么服务，事实上是安装的了。
+<img src="https://cdn.staticaly.com/gh/ewader/img@master/20221022/apt-install-gnome-shell-extension-manager.1bh4yyxm6u8.webp" alt="apt-install-gnome-shell-extension-manager">
+但是，虽然没法用浏览器安装，还是可以有别的方法的。在google上搜索这个问题的时候，官方的论坛上有人给出的方法是下载一个应用商店，在那个应用商店里安装一个软件。加上各种依赖等，都需要好几百M的空间了。</p>
+<p>后来又发现了其他的更简洁的方法，只需一行代码就搞定。</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install gnome-shell-extension-manager
+</span></span></code></pre></div><p>打开这个软件，在搜索栏里搜索你要的插件安装即可。</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-qt fcitx5-gtk
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#安装 Fcitx5主体、配置工具、输入法引擎及中文输入法模块</span>
+</span></span><span style="display:flex;"><span>sudo nano  /etc/environment
+</span></span><span style="display:flex;"><span><span style="color:#111">GTK_IM_MODULE</span><span style="color:#f92672">=</span>fcitx
+</span></span><span style="display:flex;"><span><span style="color:#111">QT_IM_MODULE</span><span style="color:#f92672">=</span>fcitx
+</span></span><span style="display:flex;"><span><span style="color:#111">XMODIFIERS</span><span style="color:#f92672">=</span>@im<span style="color:#f92672">=</span>fcitx
+</span></span><span style="display:flex;"><span><span style="color:#111">SDL_IM_MODULE</span><span style="color:#f92672">=</span>fcitx
+</span></span><span style="display:flex;"><span><span style="color:#111">GLFW_IM_MODULE</span><span style="color:#f92672">=</span>ibus<span style="color:#d88200">`</span>
+</span></span></code></pre></div>
         </div>
     </div>
 </div>

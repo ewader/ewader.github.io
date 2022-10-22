@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>libpinyin on 数字花园</title>
+    <link>https://ewader.github.io/garden_tags/libpinyin/</link>
+    <description>Recent content in libpinyin on 数字花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>数字花园 ©</copyright>
+    <lastBuildDate>Sat, 22 Oct 2022 14:49:20 +0800</lastBuildDate><atom:link href="https://ewader.github.io/garden_tags/libpinyin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manjaro安装ibus加libpinyin</title>
+      <link>https://ewader.github.io/garden/manjaro-gnaome-ibus-libpinyin/</link>
+      <pubDate>Sat, 22 Oct 2022 14:49:20 +0800</pubDate>
+      
+      <guid>https://ewader.github.io/garden/manjaro-gnaome-ibus-libpinyin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
