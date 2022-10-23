@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>manjaro - Tag - 一个中年大叔学习Python编程的笔记！！！</title>
+        <link>https://ewader.github.io/tags/manjaro/</link>
+        <description>manjaro - Tag - 一个中年大叔学习Python编程的笔记！！！</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ewader@gmail.com (老刘)</managingEditor>
+            <webMaster>ewader@gmail.com (老刘)</webMaster><lastBuildDate>Sun, 23 Oct 2022 15:23:23 &#43;0800</lastBuildDate><atom:link href="https://ewader.github.io/tags/manjaro/" rel="self" type="application/rss+xml" /><item>
+    <title>Manjaro gnome下安装ibus拼音输入法</title>
+    <link>https://ewader.github.io/manjaro-gnome-ibus-libpinyin/</link>
+    <pubDate>Sun, 23 Oct 2022 15:23:23 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://ewader.github.io/manjaro-gnome-ibus-libpinyin/</guid>
+    <description><![CDATA[<p>在ubuntu下使用习惯了IBUS输入法，换成manjaro之后，还是习惯性的希望继续使用，毕竟在Gnome桌面下，IBUS输入法使用起来更方便。配合上ibus-libpinyin，开启云词库之后，是用来真的很爽很爽。</p>]]></description>
+</item>
+</channel>
+</rss>

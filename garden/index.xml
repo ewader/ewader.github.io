@@ -9,6 +9,15 @@
     <copyright>数字花园 ©</copyright>
     <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ewader.github.io/garden/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Draw Simple Linegraph Using Matplotlib</title>
+      <link>https://ewader.github.io/garden/draw-simple-linegraph-using-matplotlib/</link>
+      <pubDate>Sat, 22 Oct 2022 15:49:55 +0800</pubDate>
+      
+      <guid>https://ewader.github.io/garden/draw-simple-linegraph-using-matplotlib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Manjaro安装ibus加libpinyin</title>
       <link>https://ewader.github.io/garden/manjaro-gnaome-ibus-libpinyin/</link>
       <pubDate>Sat, 22 Oct 2022 14:49:20 +0800</pubDate>

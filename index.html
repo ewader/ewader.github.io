@@ -1,432 +1,140 @@
 <!DOCTYPE html>
-<html><head>
+<html lang="zh-CN">
+    <head>
 	<meta name="generator" content="Hugo 0.104.2" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&family=Frank+Ruhl+Libre:wght@200;300;400;500;600&family=Encode+Sans+Semi+Condensed:wght@400&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/all.min.css">
-    <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/css/my_style.css">
-    
-    
-    
-    <title>数字花园</title>
-    <meta name="description" content="关于我的一些项目和学习笔记">
-</head><body><nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <a class="navbar-brand" href="https://ewader.github.io">
-            
-            <b style="font-weight: 800;">首页</b>
-            
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class='nav-item '>
-                    <a class="nav-link" href="/garden/"> 数字花园</a>
-                </li>
-            <li class='nav-item '>
-                    <a class="nav-link" href="/projects/"> 项目</a>
-                </li>
-            <li class='nav-item '>
-                    <a class="nav-link" href="/library/"> 文库</a>
-                </li>
-            <li class='nav-item '>
-                    <a class="nav-link" href="/about/"> 关于</a>
-                </li>
-            <li class='nav-item '>
-                    <a class="nav-link" href="/img/"> 图床</a>
-                </li>
-             
-            <li class="nav-item px-2 pt-1">
-                <a class="btn fas fa-moon" id="dark-mode-toggle"></a>
-            </li>
-            </ul>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>一个中年大叔学习Python编程的笔记！！！</title><meta name="Description" content="一个中年大叔学习Python的经历"><meta property="og:title" content="一个中年大叔学习Python编程的笔记！！！" />
+<meta property="og:description" content="一个中年大叔学习Python的经历" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ewader.github.io/" /><meta property="og:image" content="https://ewader.github.io/logo.png"/><meta property="og:site_name" content="数字花园" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://ewader.github.io/logo.png"/>
+
+<meta name="twitter:title" content="一个中年大叔学习Python编程的笔记！！！"/>
+<meta name="twitter:description" content="一个中年大叔学习Python的经历"/>
+<meta name="application-name" content="数字花园">
+<meta name="apple-mobile-web-app-title" content="数字花园"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://ewader.github.io/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="一个中年大叔学习Python编程的笔记！！！">
+    <link rel="feed" href="/index.xml" type="application/rss+xml" title="一个中年大叔学习Python编程的笔记！！！"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https:\/\/ewader.github.io\/","inLanguage": "zh-CN","author": {
+                "@type": "Person",
+                "name": "老刘"
+            },"description": "一个中年大叔学习Python的经历","name": "一个中年大叔学习Python编程的笔记！！！"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="一个中年大叔学习Python编程的笔记！！！">数字花园</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/img/"> 图床 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
         </div>
     </div>
-</nav><div id="content">
-
-<div class="mt-5 pt-5 pb-1">
-    <div class="container" >
-        <h1 class="name display-1"><b>数字花园</b></h1>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="一个中年大叔学习Python编程的笔记！！！">数字花园</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/img/" title="">图床</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
     </div>
-</div>
-<div class="mb-5 py-4">
-    <div class="container">
-        <h2 class="bio lh-base fs-1 serif">关于我的一些项目和学习笔记</h2>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
     </div>
-</div>
-
-<div class="container py-3">
-	<div class="row justify-content-between my-5">
-		
-		<div class="col-lg-4">
-			
-          	<div class="pb-4">
-              	<a class="heading fs-2" href="/garden/">数字花园</a>
-          	</div>      
-			 <p class="subheading">关于操作系统，编程等方面的内容</p> 
-			
-			<div class="row row-cols-1 g-4 mb-5">
-				
-				<div class="col">
-    <div class="card h-100 top-highlight">
-        <div class="card-body">
-            <div class="row justify-content-between">
-                <div class="col-8">
-                    <h5 class="card-title">Manjaro安装ibus加libpinyin</h5>
-                    
-                </div>
-                <div class="col-4 ">
-                    <p class="card-right">
-                        <span class="card-date">Oct 22, 2022 </span>
-                        <br/>
-    
-    <span class="status">Seeding 🌱</span>
-    
-
-                    </p>
-                </div>
-            </div>
-            <a href="https://ewader.github.io/garden/manjaro-gnaome-ibus-libpinyin/" class="stretched-link"></a>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="page home" data-home="posts"><div class="home-profile"><div class="home-avatar"><a href="/posts/" title="文章"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/avatar.png"
+        data-srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x"
+        data-sizes="auto"
+        alt="/images/avatar.png"
+        title="/images/avatar.png" width="528" height="560" /></a></div><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://github.com/ewader" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github fa-fw" aria-hidden="true"></i></a><a href="https://twitter.com/ewader" title="Twitter" target="_blank" rel="noopener noreffer me"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="https://www.instagram.com/ewader" title="Instagram" target="_blank" rel="noopener noreffer me"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i></a><a href="https://facebook.com/ewader" title="facebook" target="_blank" rel="noopener noreffer me"><i class="fab fa-facebook fa-fw" aria-hidden="true"></i></a><a href="https://t.me/ewader" title="Telegram" target="_blank" rel="noopener noreffer me"><i class="fab fa-telegram-plane fa-fw" aria-hidden="true"></i></a><a href="https://weibo.com/ewader" title="微博" target="_blank" rel="noopener noreffer me"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="mailto:ewader@gmail.com" title="Email" rel="me"><i class="far fa-envelope fa-fw" aria-hidden="true"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><i class="fas fa-rss fa-fw" aria-hidden="true"></i></a></div><h3 class="home-disclaimer">部分资料来源于网上，如有侵权，请联系站长</h3></div>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/matplotlib-chinese-luanma/">Matplotlib图表中文乱码的解决方案</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://ewader.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>老刘</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-23">2022-10-23</time></span>&nbsp;<span class="post-category">included in <a href="/categories/python/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>python</a></span></div><div class="content">不说很多废话了，直接上解决方案： 下载中文字体 其实不下载也没事，因为系统自带的也有中文字体，我只是没有操作最后一步，导致出来的还是乱码，以为没</div><div class="post-footer">
+        <a href="/matplotlib-chinese-luanma/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/python/">python</a>,&nbsp;<a href="/tags/matplotlib/">matplotlib</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/matplotlib-jiandan-zhexiantu/">使用Matplotlib画一个折线图</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://ewader.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>老刘</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-23">2022-10-23</time></span>&nbsp;<span class="post-category">included in <a href="/categories/python/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>python</a></span></div><div class="content">Matplotlib是python的一个第三方数学绘图库，通过它可以绘制出各种各样优美的，令人惊叹的图形。 首先，安装Matplotlib 1 python3</div><div class="post-footer">
+        <a href="/matplotlib-jiandan-zhexiantu/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/python/">python</a>,&nbsp;<a href="/tags/matplotlib/">matplotlib</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/manjaro-gnome-ibus-libpinyin/">Manjaro gnome下安装ibus拼音输入法</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://ewader.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>老刘</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-23">2022-10-23</time></span>&nbsp;<span class="post-category">included in <a href="/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>linux</a></span></div><div class="content"><p>在ubuntu下使用习惯了IBUS输入法，换成manjaro之后，还是习惯性的希望继续使用，毕竟在Gnome桌面下，IBUS输入法使用起来更方便。配合上ibus-libpinyin，开启云词库之后，是用来真的很爽很爽。</p></div><div class="post-footer">
+        <a href="/manjaro-gnome-ibus-libpinyin/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/manjaro/">manjaro</a>,&nbsp;<a href="/tags/gnome/">Gnome</a>,&nbsp;<a href="/tags/libpinyin/">Libpinyin</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/ubuntu-22-04-install-gnome-extensions-manager-workaround/">ubuntu22.04安装gnome插件</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://ewader.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>老刘</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-23">2022-10-23</time></span>&nbsp;<span class="post-category">included in <a href="/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>linux</a></span></div><div class="content"><p>ububtu22.04对gnome42进行了个性化的设置，好听点的话是个性化的设置，不好听的就是魔改。这样就导致用浏览器不能安装gnome插件。</p></div><div class="post-footer">
+        <a href="/ubuntu-22-04-install-gnome-extensions-manager-workaround/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/ubuntu/">ubuntu</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/first_post/">我的第一篇文章</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://iliu.org/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>老刘</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-23">2022-10-23</time></span>&nbsp;<span class="post-category">included in <a href="/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>linux</a></span></div><div class="content"><p>你好，几天霜降</p></div><div class="post-footer">
+        <a href="/first_post/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E6%96%87%E7%AB%A0/">文章</a></div></div>
+</article></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.104.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://ewader.com" target="_blank">老刘</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
-    </div>   
-</div>   
-				
-				<div class="col">
-    <div class="card h-100 top-highlight">
-        <div class="card-body">
-            <div class="row justify-content-between">
-                <div class="col-8">
-                    <h5 class="card-title">Ubuntu22.04安装GNOME插件</h5>
-                    
-                </div>
-                <div class="col-4 ">
-                    <p class="card-right">
-                        <span class="card-date">Oct 22, 2022 </span>
-                        <br/>
-    
-    <span class="status">Seeding 🌱</span>
-    
+    </footer></div>
 
-                    </p>
-                </div>
-            </div>
-            <a href="https://ewader.github.io/garden/ubuntu-install-extension/" class="stretched-link"></a>
-        </div>
-    </div>   
-</div>   
-				
-				<div class="col">
-    <div class="card h-100 top-highlight">
-        <div class="card-body">
-            <div class="row justify-content-between">
-                <div class="col-8">
-                    <h5 class="card-title">测试</h5>
-                    
-                </div>
-                <div class="col-4 ">
-                    <p class="card-right">
-                        <span class="card-date">Oct 21, 2022 </span>
-                        <br/>
-    
-    <span class="status">Evergreen 🌳</span>
-    
-
-                    </p>
-                </div>
-            </div>
-            <a href="https://ewader.github.io/garden/first/" class="stretched-link"></a>
-        </div>
-    </div>   
-</div>   
-				
-				<div class="col">
-    <div class="card h-100 top-highlight">
-        <div class="card-body">
-            <div class="row justify-content-between">
-                <div class="col-8">
-                    <h5 class="card-title">On the nutrition benefits of bamboo shoots</h5>
-                    
-                </div>
-                <div class="col-4 ">
-                    <p class="card-right">
-                        <span class="card-date">Aug 12, 2021 </span>
-                        <br/>
-    
-    <span class="status">Seeding 🌱</span>
-    
-
-                    </p>
-                </div>
-            </div>
-            <a href="https://ewader.github.io/garden/seeding_example/" class="stretched-link"></a>
-        </div>
-    </div>   
-</div>   
-				
-				<div class="col">
-    <div class="card h-100 top-highlight">
-        <div class="card-body">
-            <div class="row justify-content-between">
-                <div class="col-8">
-                    <h5 class="card-title">Optimizing your daily fur cleaning routine</h5>
-                    
-                </div>
-                <div class="col-4 ">
-                    <p class="card-right">
-                        <span class="card-date">Mar 17, 2019 </span>
-                        <br/>
-    
-    <span class="status">Evergreen 🌳</span>
-    
-
-                    </p>
-                </div>
-            </div>
-            <a href="https://ewader.github.io/garden/evergreen_example/" class="stretched-link"></a>
-        </div>
-    </div>   
-</div>   
-				
-				<div class="col">
-    <div class="card h-100 top-highlight">
-        <div class="card-body">
-            <div class="row justify-content-between">
-                <div class="col-8">
-                    <h5 class="card-title">The best trees to fall asleep in 2020</h5>
-                    
-                </div>
-                <div class="col-4 ">
-                    <p class="card-right">
-                        <span class="card-date">Nov 4, 2020 </span>
-                        <br/>
-    
-    <span class="status">Growing 🌿</span>
-    
-
-                    </p>
-                </div>
-            </div>
-            <a href="https://ewader.github.io/garden/growing_example/" class="stretched-link"></a>
-        </div>
-    </div>   
-</div>   
-				
-      		</div>
-			
-			<div class="d-flex flex-row-reverse">
-        		<a href="/garden/" role="button" class="btn btn-sm see-all">See all articles</a>
-      		</div>
-      		
-		</div>
-    	
-		
-		<div class="col-lg-7">
-			
-			<div class="pb-4">
-				<a class="heading fs-2" href="/projects/">项目</a>
-			</div>          
-			 
-			<p class="subheading">闲暇时分开发的一些小项目</p> 
-			
-			
-			<div class="row row-cols-1 row-cols-md-2 g-4 mb-5" data-masonry='{"percentPosition": true }'>
-				
-				<div class="col">
-    <div class="card top-highlight">
-        
-        
-        
-        
-        <img src="https://ewader.github.io/projects/project2/featured_hu06bbc0874e931b9725747ce0f76b1351_26467_500x500_fit_box_3.png" alt="视光档案管理系统" class="card-img-top p-5">
-        
-        
-        <div class="card-body">
-            <h5 class="card-title">视光档案管理系统</h5>
-            <p class="card-text">近视防控管理项目，对视光档案进行保存及分析</p>
-            <a href="https://ewader.github.io/projects/project2/" class="stretched-link"></a>
-            <div class="row justify-content-between">
-                <div class="col align-self-start">
-                
-                
-                <span class="badge tag-badge">视光</span>
-                
-                <span class="badge tag-badge">近视防控</span>
-                
-                
-                </div>
-                <div class="col align-self-end" style="text-align: right">
-                    
-    
-    <span class="status">Seeding 🌱</span>
-    
-
-                </div>
-            </div>
-        </div>
-    </div>  
-</div>
-				
-				<div class="col">
-    <div class="card top-highlight">
-        
-        
-        
-        
-        <img src="https://ewader.github.io/projects/project1/featured_hucfb3feed069a17f9d9f9bace2c0dabe0_10988_500x500_fit_box_3.png" alt="Markdown Syntax" class="card-img-top p-5">
-        
-        
-        <div class="card-body">
-            <h5 class="card-title">Markdown Syntax</h5>
-            <p class="card-text">Example of markdown syntax you can use to edit your content</p>
-            <a href="https://ewader.github.io/projects/project1/" class="stretched-link"></a>
-            <div class="row justify-content-between">
-                <div class="col align-self-start">
-                
-                
-                <span class="badge tag-badge">markdown</span>
-                
-                
-                </div>
-                <div class="col align-self-end" style="text-align: right">
-                    
-    
-    <span class="status">Evergreen 🌳</span>
-    
-
-                </div>
-            </div>
-        </div>
-    </div>  
-</div>
-				
-				<div class="col">
-    <div class="card top-highlight">
-        
-        
-        <div class="card-body">
-            <h5 class="card-title">Another Project</h5>
-            <p class="card-text"></p>
-            <a href="https://ewader.github.io/projects/project3/" class="stretched-link"></a>
-            <div class="row justify-content-between">
-                <div class="col align-self-start">
-                
-                
-                <span class="badge tag-badge">webapp</span>
-                
-                
-                </div>
-                <div class="col align-self-end" style="text-align: right">
-                    
-    
-    <span class="status">Growing 🌿</span>
-    
-
-                </div>
-            </div>
-        </div>
-    </div>  
-</div>
-				
-    		</div>
-			
-			<div class="d-flex flex-row-reverse">
-				<a href="/projects/" role="button" class="btn btn-sm see-all">See all projects</a>
-			</div>    
-			
-  		</div>
-	</div>
-
-	
-	<div class="container py-3">
-		<div class="row justify-content-between my-5">
-			<div class="col-sm-4 col-lg-3">
-				
-				<div class="pb-4">
-					<a class="heading fs-2" href="/library/">图书</a>
-				</div>
-				 <p class="subheading">我看过的那些书</p> 
-				<div class="d-flex">
-					<a href="/library/" role="button" class="btn btn-sm see-all">See all books</a>
-				</div>
-				
-			</div>
-			<div class="col me-auto">
-				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
-					
-					<div class="col">
-						<div class="card">
-							
-							
-							
-							<img src="https://ewader.github.io/library/book1/featured_hub9112174157aef244cab0e3e3dcc3520_40439_350x500_fit_q75_box.jpg" alt="数字花园" class="card-img-top">
-							
-							<div class="card-body">
-								<h5 class="card-title">红色的熊猫</h5>
-								<p class="card-text">
-									<figcaption class="blockquote-footer">Angela R. Glatston</figcaption>
-								</p>
-								<a href="https://ewader.github.io/library/book1/" class="stretched-link"></a>
-							</div>
-						</div>  
-					</div>
-					
-					<div class="col">
-						<div class="card">
-							
-							
-							
-							<img src="https://ewader.github.io/library/book2/featured_hua5a9c44393526f2551aa9a85e6ba75ba_142238_350x500_fit_q75_box.jpg" alt="数字花园" class="card-img-top">
-							
-							<div class="card-body">
-								<h5 class="card-title">Fuji Takes a Walk</h5>
-								<p class="card-text">
-									<figcaption class="blockquote-footer">Janell Rosener</figcaption>
-								</p>
-								<a href="https://ewader.github.io/library/book2/" class="stretched-link"></a>
-							</div>
-						</div>  
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-        </div><div class="container">
-    <div class="row justify-content-between">
-        <div class="col-sm-4">
-            <p class="footer">数字花园 © 2022 </p>
-        </div>
-        <div class="col-sm-6 d-flex flex-row-reverse">
-            
-            <a class="footer-social px-2" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-            
-            <a class="footer-social px-2" href="#" target="_blank"><i class="fab fa-github"></i></a>
-            
-            <a class="footer-social px-2" href="#" target="_blank"><i class="fab fa-medium-m"></i></a>
-            
-            <a class="footer-social px-2" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            
-        </div>
-    </div>
-</div><script src="/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/jquery.min.js"></script>
-<script src="/js/isotope.pkgd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
-<script src="/js/dark.js"></script>
-<script src="/js/isotope.js"></script>
-<script src="/js/mermaid.min.js"></script>
-<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose'});</script></body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/index.umd.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"一个中年大叔学习Python的笔记和历程"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

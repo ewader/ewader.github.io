@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>python - Tag - 一个中年大叔学习Python编程的笔记！！！</title>
+        <link>https://ewader.github.io/tags/python/</link>
+        <description>python - Tag - 一个中年大叔学习Python编程的笔记！！！</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ewader@gmail.com (老刘)</managingEditor>
+            <webMaster>ewader@gmail.com (老刘)</webMaster><lastBuildDate>Sun, 23 Oct 2022 16:33:12 &#43;0800</lastBuildDate><atom:link href="https://ewader.github.io/tags/python/" rel="self" type="application/rss+xml" /><item>
+    <title>Matplotlib图表中文乱码的解决方案</title>
+    <link>https://ewader.github.io/matplotlib-chinese-luanma/</link>
+    <pubDate>Sun, 23 Oct 2022 16:33:12 &#43;0800</pubDate>
+    <author>老刘</author>
+    <guid>https://ewader.github.io/matplotlib-chinese-luanma/</guid>
+    <description><![CDATA[不说很多废话了，直接上解决方案： 下载中文字体 其实不下载也没事，因为系统自带的也有中文字体，我只是没有操作最后一步，导致出来的还是乱码，以为没]]></description>
+</item>
+<item>
+    <title>使用Matplotlib画一个折线图</title>
+    <link>https://ewader.github.io/matplotlib-jiandan-zhexiantu/</link>
+    <pubDate>Sun, 23 Oct 2022 16:22:19 &#43;0800</pubDate>
+    <author>老刘</author>
+    <guid>https://ewader.github.io/matplotlib-jiandan-zhexiantu/</guid>
+    <description><![CDATA[Matplotlib是python的一个第三方数学绘图库，通过它可以绘制出各种各样优美的，令人惊叹的图形。 首先，安装Matplotlib 1 python3]]></description>
+</item>
+</channel>
+</rss>
