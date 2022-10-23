@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>网站相关 - Category - 一个中年大叔学习Python编程的笔记！！！</title>
+        <link>https://ewader.github.io/categories/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/</link>
+        <description>网站相关 - Category - 一个中年大叔学习Python编程的笔记！！！</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ewader@gmail.com (老刘)</managingEditor>
+            <webMaster>ewader@gmail.com (老刘)</webMaster><lastBuildDate>Sun, 23 Oct 2022 19:13:36 &#43;0800</lastBuildDate><atom:link href="https://ewader.github.io/categories/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/" rel="self" type="application/rss+xml" /><item>
+    <title>GitHub创建个人主页报错404</title>
+    <link>https://ewader.github.io/github-page-404/</link>
+    <pubDate>Sun, 23 Oct 2022 19:13:36 &#43;0800</pubDate>
+    <author>老刘</author>
+    <guid>https://ewader.github.io/github-page-404/</guid>
+    <description><![CDATA[之前还能正常访问，刚刚给文章加了评论，直接提交后直接显示404了。网上查了一下，发现也有相似的问题。用以下的方法成功解决了。 首先进入sett]]></description>
+</item>
+</channel>
+</rss>

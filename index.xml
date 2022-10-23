@@ -4,9 +4,17 @@
         <link>https://ewader.github.io/</link>
         <description>一个中年大叔学习Python的经历</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ewader@gmail.com (老刘)</managingEditor>
-            <webMaster>ewader@gmail.com (老刘)</webMaster><lastBuildDate>Sun, 23 Oct 2022 16:33:12 &#43;0800</lastBuildDate>
+            <webMaster>ewader@gmail.com (老刘)</webMaster><lastBuildDate>Sun, 23 Oct 2022 19:13:36 &#43;0800</lastBuildDate>
             <atom:link href="https://ewader.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>GitHub创建个人主页报错404</title>
+    <link>https://ewader.github.io/github-page-404/</link>
+    <pubDate>Sun, 23 Oct 2022 19:13:36 &#43;0800</pubDate>
+    <author>老刘</author>
+    <guid>https://ewader.github.io/github-page-404/</guid>
+    <description><![CDATA[之前还能正常访问，刚刚给文章加了评论，直接提交后直接显示404了。网上查了一下，发现也有相似的问题。用以下的方法成功解决了。 首先进入sett]]></description>
+</item>
+<item>
     <title>Matplotlib图表中文乱码的解决方案</title>
     <link>https://ewader.github.io/matplotlib-chinese-luanma/</link>
     <pubDate>Sun, 23 Oct 2022 16:33:12 &#43;0800</pubDate>
