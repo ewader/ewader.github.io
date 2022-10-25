@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on 一个中年大叔学习Python编程的笔记！！！</title>
+    <link>https://ewader.github.io/project/</link>
+    <description>Recent content in Projects on 一个中年大叔学习Python编程的笔记！！！</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>ewader@gmail.com (老刘)</managingEditor>
+    <webMaster>ewader@gmail.com (老刘)</webMaster>
+    <lastBuildDate>Tue, 25 Oct 2022 14:47:11 +0800</lastBuildDate><atom:link href="https://ewader.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>视光档案馆</title>
+      <link>https://ewader.github.io/project/eye-sights/</link>
+      <pubDate>Tue, 25 Oct 2022 14:47:11 +0800</pubDate>
+      <author>ewader@gmail.com (老刘)</author>
+      <guid>https://ewader.github.io/project/eye-sights/</guid>
+      <description>项目的背景 信息时代，电子产品泛滥，孩子的户外活动越来越少，中小学生出现视力下降的情况越发普遍，孩子视力下降成了很多家长非常烦心的事。 中小学生</description>
+    </item>
+    
+  </channel>
+</rss>
