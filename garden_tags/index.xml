@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Garden_tags on 火龙罐理疗及慢性病调理</title>
-    <link>https://www.example.com/garden_tags/</link>
+    <link>https://ewader.github.io/garden_tags/</link>
     <description>Recent content in Garden_tags on 火龙罐理疗及慢性病调理</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright> 火龙罐理疗及慢性病调理©</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.example.com/garden_tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ewader.github.io/garden_tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bamboo</title>
-      <link>https://www.example.com/garden_tags/bamboo/</link>
+      <link>https://ewader.github.io/garden_tags/bamboo/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.example.com/garden_tags/bamboo/</guid>
+      <guid>https://ewader.github.io/garden_tags/bamboo/</guid>
       <description></description>
     </item>
     <item>
       <title>cleaning</title>
-      <link>https://www.example.com/garden_tags/cleaning/</link>
+      <link>https://ewader.github.io/garden_tags/cleaning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.example.com/garden_tags/cleaning/</guid>
+      <guid>https://ewader.github.io/garden_tags/cleaning/</guid>
       <description></description>
     </item>
     <item>
       <title>food</title>
-      <link>https://www.example.com/garden_tags/food/</link>
+      <link>https://ewader.github.io/garden_tags/food/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.example.com/garden_tags/food/</guid>
+      <guid>https://ewader.github.io/garden_tags/food/</guid>
       <description></description>
     </item>
     <item>
       <title>fur</title>
-      <link>https://www.example.com/garden_tags/fur/</link>
+      <link>https://ewader.github.io/garden_tags/fur/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.example.com/garden_tags/fur/</guid>
+      <guid>https://ewader.github.io/garden_tags/fur/</guid>
       <description></description>
     </item>
     <item>
       <title>nap</title>
-      <link>https://www.example.com/garden_tags/nap/</link>
+      <link>https://ewader.github.io/garden_tags/nap/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.example.com/garden_tags/nap/</guid>
+      <guid>https://ewader.github.io/garden_tags/nap/</guid>
       <description></description>
     </item>
     <item>
       <title>trees</title>
-      <link>https://www.example.com/garden_tags/trees/</link>
+      <link>https://ewader.github.io/garden_tags/trees/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.example.com/garden_tags/trees/</guid>
+      <guid>https://ewader.github.io/garden_tags/trees/</guid>
       <description></description>
     </item>
   </channel>
