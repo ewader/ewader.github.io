@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文献 on 火龙罐理疗及慢性病调理</title>
-    <link>https://ewader.github.io/library/</link>
+    <link>https://ewader.com/library/</link>
     <description>Recent content in 文献 on 火龙罐理疗及慢性病调理</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright> 火龙罐理疗及慢性病调理©</copyright>
     <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ewader.github.io/library/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ewader.com/library/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Red Panda</title>
-      <link>https://ewader.github.io/library/book1/</link>
+      <link>https://ewader.com/library/book1/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://ewader.github.io/library/book1/</guid>
+      <guid>https://ewader.com/library/book1/</guid>
       <description>Biology and Conservation of the First Panda</description>
     </item>
     <item>
       <title>Fuji Takes a Walk</title>
-      <link>https://ewader.github.io/library/book2/</link>
+      <link>https://ewader.com/library/book2/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://ewader.github.io/library/book2/</guid>
+      <guid>https://ewader.com/library/book2/</guid>
       <description></description>
     </item>
   </channel>
