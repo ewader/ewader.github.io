@@ -98,76 +98,15 @@
 
     <div class="container-fluid py-2">
         <div class="serif main-content">
-            <p>It is super easy to create and update the content of this theme. There are only 2 places that matters depending on waht you need to update:</p>
-<ul>
-<li>your <code>config.toml</code> file for general website content (navigation bar, footer, title, &hellip;)</li>
-<li>your <code>content/</code> folder for page specific content (post, project, about, book &hellip;)</li>
-</ul>
-<p>The syntax of the <code>config.toml</code> should be straightforward. Not that you don&rsquo;t need to specify a <code>themesdir</code> if you already have the theme in you theme folder.</p>
-<p>To create a new post or project, just create new markdown files in the relatives folder with the frontmatter detailed below</p>
-<h3 id="post-front-matter">Post front matter</h3>
-<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
-</span></span><span style="display:flex;"><span>title: &#34;Title&#34;
-</span></span><span style="display:flex;"><span>date: 2019-01-01
-</span></span><span style="display:flex;"><span>lastmod: 2020-02-02
-</span></span><span style="display:flex;"><span>draft: false
-</span></span><span style="display:flex;"><span>garden_tags: [&#34;tag1&#34;, &#34;tag2&#34;]
-</span></span><span style="display:flex;"><span>summary: &#34; &#34;
-</span></span><span style="display:flex;"><span>status: &#34;evergreen&#34;
-</span></span><span style="display:flex;"><span>---
-</span></span></code></pre></div><ul>
-<li>If you don&rsquo;t want any <code>summary</code> to be displayed, leave a whitespace otherwise the default summary will be the first sentence of your post.</li>
-<li>The <code>garden_tags</code> are used as filter on the Digital Garden page.</li>
-<li>The <code>status</code> can be one of <code>seeding</code>, <code>growing</code> or <code>evergreen</code>. You can customized those by creating a new file in <code>layouts/partials/status.html</code> (look at <code>themes/digital-garden/layouts/partials/status.html</code> for an example).</li>
-</ul>
-<h3 id="project-front-matter">Project front matter</h3>
-<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
-</span></span><span style="display:flex;"><span>title: &#34;Project Title&#34;
-</span></span><span style="display:flex;"><span>date: 2021-01-01
-</span></span><span style="display:flex;"><span>draft: false
-</span></span><span style="display:flex;"><span>project_tags: [&#34;markdown&#34;]
-</span></span><span style="display:flex;"><span>status: &#34;evergreen&#34;
-</span></span><span style="display:flex;"><span>summary: &#34;Project summary&#34;
-</span></span><span style="display:flex;"><span>links:
-</span></span><span style="display:flex;"><span>    external_link:
-</span></span><span style="display:flex;"><span>        text: &#34;Some external link&#34;
-</span></span><span style="display:flex;"><span>        icon: &#34;fas fa-external-link-alt&#34;
-</span></span><span style="display:flex;"><span>        href: &#34;#&#34;
-</span></span><span style="display:flex;"><span>        weight: 1
-</span></span><span style="display:flex;"><span>    another_link:
-</span></span><span style="display:flex;"><span>        text: &#34;Another github link&#34;
-</span></span><span style="display:flex;"><span>        icon: &#34;fab alt brands fa-github&#34;
-</span></span><span style="display:flex;"><span>        href: &#34;#&#34;
-</span></span><span style="display:flex;"><span>        weight: 2
-</span></span><span style="display:flex;"><span>---
-</span></span></code></pre></div><p>You can create a new project by creating a new folder under <code>content/projects/</code>.<br>
-Any image in this folder with the word <code>feature</code> in its name will be used as the project illustration.<br>
-Any <code>index.md</code> file in this folder with the front matter above will be used to create the project page.<br>
-In addition to the post frontmatter, the project one get a <code>links</code> key if you want to have links to external source (github, &hellip;).</p>
-<h3 id="shortcodes">Shortcodes</h3>
-<p>Split text into columns with the <code>row</code> and <code>column</code> shortcodes.</p>
-<div class="row"> 
-<div class="col-md"> <h4 id="col-1-title">Col 1 Title</h4>
-<p>column 1 text </div>
-
-<div class="col-md"> <h4 id="col-2-title">Col 2 Title</h4>
-<p>column 2 text </div>
-
- </div>
-
-<p>Draw mermaid graph</p>
-
-<div class="mermaid" align="center">
-graph LR;
-   A[sheets ream<sup>-1</sup> <br> 500] -->|-1| B[thickness <br> 10<sup>-2</sup>cm <br>] 
-   C[thickness ream<sup>-1</sup> <br> 5cm] --> B
-   B --> D[volume <br> 1cm<sup>3</sup>]
-   E[height <br> 6cm] --> D
-   F[width <br> 15cm] --> D
-</div>
-
-<hr>
-<p><small>Red panda icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"><a href="https://www.flaticon.com">www.flaticon.com</a></a></small></p>
+            <p>这是刘伟承老师根据自己多年中医临床经验总结出来的对慢性病的调理方法。具体包括：</p>
+<h2 id="手掌诊断法">手掌诊断法</h2>
+<p>刘伟承老师根据多年行医经验，根据手掌的颜色、干湿、温凉等情况，判断一个人的体质症型。</p>
+<h2 id="口味诊断法">口味诊断法</h2>
+<p>刘伟承老师总结的，根据一个人平常饮食口味来判断五脏六腑哪里有问题的方法。</p>
+<h2 id="豆麦十宝粥">豆麦十宝粥</h2>
+<p>根据中医症形，在豆麦十宝粥的基础上，加上其他食材，调理身体。老师的名言是：“药补不如食补，药疗不如食疗”。达到治未病的目的</p>
+<h2 id="营养早餐">营养早餐</h2>
+<p>对于缺乏营养的慢性病患者，采用大豆分离蛋白粉等营养物质进行配方，形成营养早餐，配合豆麦十宝粥。</p>
 
         </div>
     </div>
