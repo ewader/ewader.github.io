@@ -1,1 +1,13 @@
 /* Custom styles go here */
+
+:root {
+    /* --mulish: 'Comic Neue'; */
+    --summary: 'Comic Neue';
+    /* --headings: 'Comic Neue'; */
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+  }
