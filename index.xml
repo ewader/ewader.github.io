@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright> 火龙罐理疗及慢性病调理©</copyright>
-    <lastBuildDate>Sat, 11 Nov 2023 14:36:24 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Nov 2023 15:27:38 +0800</lastBuildDate>
     <atom:link href="https://ewader.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>食疗调理慢性病</title>
@@ -28,6 +28,13 @@
       <link>https://ewader.com/projects/qingbigu/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://ewader.com/projects/qingbigu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>杂粮粥调理案例</title>
+      <link>https://ewader.com/garden/zaliangzhoutiaoli/</link>
+      <pubDate>Sun, 12 Nov 2023 15:27:38 +0800</pubDate>
+      <guid>https://ewader.com/garden/zaliangzhoutiaoli/</guid>
       <description></description>
     </item>
     <item>
@@ -85,6 +92,13 @@
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://ewader.com/library/paper1/</guid>
       <description>了解患者接受火龙罐治疗的真实体验和感受，为更好地发挥火龙罐的治疗作用提供参考依据</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://ewader.com/2023-11-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ewader.com/2023-11-06/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
