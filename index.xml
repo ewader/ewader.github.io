@@ -1,118 +1,158 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>火龙罐综合灸及慢性病调理</title>
+    <title>火龙罐综合灸</title>
     <link>https://ewader.com/</link>
-    <description>Recent content on 火龙罐综合灸及慢性病调理</description>
+    <description>Recent content on 火龙罐综合灸</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright> 火龙罐理疗及慢性病调理©</copyright>
-    <lastBuildDate>Fri, 17 Nov 2023 09:38:53 +0800</lastBuildDate>
-    <atom:link href="https://ewader.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language>
+    <lastBuildDate>Sat, 18 Nov 2023 14:37:55 +0800</lastBuildDate><atom:link href="https://ewader.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>食疗调理慢性病</title>
       <link>https://ewader.com/projects/doumaizhou/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://ewader.com/projects/doumaizhou/</guid>
       <description>对慢性病人来说，食疗是最安全健康的方法</description>
     </item>
+    
     <item>
       <title>火龙罐综合灸</title>
       <link>https://ewader.com/projects/huolongguan/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://ewader.com/projects/huolongguan/</guid>
       <description>非物质文化遗产火龙罐介绍</description>
     </item>
+    
     <item>
       <title>六字诀与轻辟谷</title>
       <link>https://ewader.com/projects/qingbigu/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://ewader.com/projects/qingbigu/</guid>
       <description></description>
     </item>
+    
+    <item>
+      <title>辟谷功加营养早餐前后对比</title>
+      <link>https://ewader.com/garden/bigu-yingyangzaocan/</link>
+      <pubDate>Sat, 18 Nov 2023 14:37:55 +0800</pubDate>
+      
+      <guid>https://ewader.com/garden/bigu-yingyangzaocan/</guid>
+      <description>我分享一下轻辟谷后的变化：去年一年四季整个右手掌粗糙、干、黄、脱皮，还老是皲裂，可想我粘水、做火龙罐那滋味，不堪回首，前两张照片去年拍的，有几个好心人送我手霜，可是不习惯，又老是要碰水，做火龙罐，今年7月、8月两月不断补充营养方法轻辟谷后手掌变化图 3，手掌红润、滋润很多、脱皮、皲裂现象明显好转。☀️
+安利产品是质量很好，安利做到了。我们是处方很正确，所以疗效肯定。👍 </description>
+    </item>
+    
     <item>
       <title>火龙罐艾灰外用改善大面积擦伤溃烂伤口快速愈合</title>
       <link>https://ewader.com/garden/huolonguanhuidezuoyong/</link>
       <pubDate>Fri, 17 Nov 2023 09:38:53 +0800</pubDate>
+      
       <guid>https://ewader.com/garden/huolonguanhuidezuoyong/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>营养早餐无意治好飞蚊症</title>
       <link>https://ewader.com/garden/yingyangzaocan-feiwenzheng/</link>
       <pubDate>Tue, 14 Nov 2023 17:40:16 +0800</pubDate>
+      
       <guid>https://ewader.com/garden/yingyangzaocan-feiwenzheng/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>杂粮粥调理案例</title>
       <link>https://ewader.com/garden/zaliangzhoutiaoli/</link>
       <pubDate>Sun, 12 Nov 2023 15:27:38 +0800</pubDate>
+      
       <guid>https://ewader.com/garden/zaliangzhoutiaoli/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>火龙罐联合平衡罐加穿刺疗法对带状疱疹的案例</title>
       <link>https://ewader.com/garden/daizhuangpaozhen/</link>
       <pubDate>Sat, 11 Nov 2023 14:36:24 +0800</pubDate>
+      
       <guid>https://ewader.com/garden/daizhuangpaozhen/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>火龙罐治疗小儿喉炎</title>
       <link>https://ewader.com/garden/xiaoerhouyan/</link>
       <pubDate>Fri, 10 Nov 2023 14:53:59 +0800</pubDate>
+      
       <guid>https://ewader.com/garden/xiaoerhouyan/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>关于</title>
       <link>https://ewader.com/about/</link>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://ewader.com/about/</guid>
       <description>对慢性病人来说，食疗是最安全健康的方法</description>
     </item>
+    
     <item>
       <title>火龙罐联合穴位贴敷在肠梗阻病人中的应用</title>
       <link>https://ewader.com/library/paper2/</link>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://ewader.com/library/paper2/</guid>
       <description>探讨火龙罐联合穴位贴敷在肠梗阻病人中的应用效果</description>
     </item>
+    
     <item>
       <title>美容冠祛痘消炎案例</title>
       <link>https://ewader.com/garden/huolongguan-meirong/</link>
       <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://ewader.com/garden/huolongguan-meirong/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>小儿肠系膜淋巴结炎调养案例分享 </title>
       <link>https://ewader.com/garden/xiaoerchangximolinbajieyan/</link>
       <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://ewader.com/garden/xiaoerchangximolinbajieyan/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>营养早餐对女孩经期的改善</title>
       <link>https://ewader.com/garden/zaocao-yuejing/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://ewader.com/garden/zaocao-yuejing/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>火龙罐治疗患者体验的质性研究</title>
       <link>https://ewader.com/library/paper1/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://ewader.com/library/paper1/</guid>
       <description>了解患者接受火龙罐治疗的真实体验和感受，为更好地发挥火龙罐的治疗作用提供参考依据</description>
     </item>
+    
     <item>
       <title></title>
       <link>https://ewader.com/2023-11-06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://ewader.com/2023-11-06/</guid>
       <description></description>
     </item>
+    
+    
+    
   </channel>
 </rss>
